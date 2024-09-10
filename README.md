@@ -26,6 +26,7 @@ php artisan test
 >docker compose -f ./docker-compose-prod.yml up //production
 
 
+
 ## Run on local
 
 >composer install //install composer
@@ -36,11 +37,15 @@ php artisan test
 
 >php artisan key:generate //generate key for your app
 
+>docker compose build
+
 >docker compose up 
 
 >php artisan migrate:refresh
 
 >npm run dev
+
+
 
 ## Deploy on production server
 
